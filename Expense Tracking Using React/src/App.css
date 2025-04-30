@@ -1,0 +1,182 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+/* App.css */
+
+body {
+  background-color: #f4f4f4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+  color: #555;
+}
+
+.balance {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.inc-exp-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9fafb;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  border: 1px solid #e1e1e1;
+}
+
+.inc-exp-container div {
+  flex: 1;
+  text-align: center;
+}
+
+.money {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.money.plus {
+  color: #2ecc71;
+}
+
+.money.minus {
+  color: #e74c3c;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  background-color: #fff;
+  border-left: 5px solid;
+  border-radius: 8px;
+  margin: 8px 0;
+  padding: 10px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.list li.plus {
+  border-color: #2ecc71;
+}
+
+.list li.minus {
+  border-color: #e74c3c;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  color: #e74c3c;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.form-control {
+  margin: 10px 0;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.btn {
+  width: 100%;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+
+.btn.red {
+  background-color: #e74c3c;
+}
+
+.btn.red:hover {
+  background-color: #c0392b;
+}
