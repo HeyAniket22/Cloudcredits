@@ -1,0 +1,41 @@
+.typing-box {
+    margin-top: 20px;
+  }
+  
+  .paragraph-display {
+    text-align: left;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+  }
+  
+  .paragraph-display .correct {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .paragraph-display .incorrect {
+    color: red;
+    font-weight: bold;
+  }
+  
+
+
+  body.dark .paragraph-display {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+  }
+  
+  body.dark .paragraph-display .correct {
+    color: #2ecc71; /* greenish */
+  }
+  
+  body.dark .paragraph-display .incorrect {
+    color: #e74c3c; /* red */
+  }
+  

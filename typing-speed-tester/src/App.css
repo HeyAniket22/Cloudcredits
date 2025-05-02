@@ -1,0 +1,95 @@
+body.dark {
+  background-color: #1e272e;
+  color: #f5f6fa;
+}
+
+body.dark .container {
+  background-color: #2f3640;
+  color: #f5f6fa;
+}
+
+body.dark .paragraph {
+  background-color: #353b48;
+  color: #dcdde1;
+}
+
+body.dark .typing-area {
+  background-color: #2f3542;
+  color: white;
+  border: 1px solid #57606f;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+.btn.toggle {
+  background-color: #2ecc71;
+}
+
+.btn.toggle:hover {
+  background-color: #27ae60;
+}
+
+
+/* .typing-area {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  min-height: 100px;
+  resize: none;
+  box-sizing: border-box;
+  outline: none;
+} */
+
+
+.typing-area {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  min-height: 100px;
+  resize: vertical;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Courier New', monospace;
+  white-space: pre-wrap;
+}
+
+@media (min-width: 768px) {
+  .typing-area {
+    min-height: 150px;
+    font-size: 1.1rem;
+  }
+}
